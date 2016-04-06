@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1" Active="Default">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <Units Count="14">
+      <Unit0>
+        <Filename Value="part.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="part"/>
+        <EditorIndex Value="6"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="59" Y="11"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="part.pas"/>
+        <UnitName Value="part"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="nii_core.pas"/>
+        <UnitName Value="nii_core"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="65" Y="9"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="dialogsx.pas"/>
+        <UnitName Value="dialogsx"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="5"/>
+        <CursorPos X="9" Y="14"/>
+        <UsageCount Value="13"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="define_types.pas"/>
+        <UnitName Value="define_types"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="17" Y="14"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="upart.pas"/>
+        <UnitName Value="upart"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="403"/>
+        <CursorPos X="72" Y="417"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="options.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="isgui.inc"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="3" Y="2"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="nii_intennorm.pas"/>
+        <UnitName Value="nii_intennorm"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="11"/>
+        <UsageCount Value="12"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="nii_perf.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="nii_perf"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="6"/>
+        <CursorPos X="1" Y="34"/>
+        <UsageCount Value="28"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="nii_smooth.pas"/>
+        <UnitName Value="nii_smooth"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="496"/>
+        <CursorPos X="32" Y="524"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="nii_ttest.pas"/>
+        <UnitName Value="nii_ttest"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="592"/>
+        <CursorPos X="39" Y="614"/>
+        <UsageCount Value="11"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="fsl_calls.pas"/>
+        <UnitName Value="fsl_calls"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="108"/>
+        <CursorPos X="133" Y="120"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\..\..\..\..\usr\local\share\fpcsrc\packages\fv\src\dialogs.pas"/>
+        <UnitName Value="Dialogs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1026"/>
+        <CursorPos X="6" Y="1039"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="upart.pas"/>
+        <Caret Line="578" Column="53" TopLine="554"/>
+      </Position1>
+      <Position2>
+        <Filename Value="upart.pas"/>
+        <Caret Line="890" Column="11" TopLine="866"/>
+      </Position2>
+      <Position3>
+        <Filename Value="upart.pas"/>
+        <Caret Line="891" Column="11" TopLine="867"/>
+      </Position3>
+      <Position4>
+        <Filename Value="upart.pas"/>
+        <Caret Line="31" Column="11" TopLine="16"/>
+      </Position4>
+      <Position5>
+        <Filename Value="upart.pas"/>
+        <Caret Line="233" Column="34" TopLine="209"/>
+      </Position5>
+      <Position6>
+        <Filename Value="upart.pas"/>
+        <Caret Line="425" Column="77" TopLine="411"/>
+      </Position6>
+      <Position7>
+        <Filename Value="upart.pas"/>
+        <Caret Line="398" Column="46" TopLine="391"/>
+      </Position7>
+      <Position8>
+        <Filename Value="upart.pas"/>
+        <Caret Line="366" Column="3" TopLine="1"/>
+      </Position8>
+      <Position9>
+        <Filename Value="upart.pas"/>
+        <Caret Line="584" Column="25" TopLine="570"/>
+      </Position9>
+      <Position10>
+        <Filename Value="upart.pas"/>
+        <Caret Line="595" Column="29" TopLine="570"/>
+      </Position10>
+      <Position11>
+        <Filename Value="upart.pas"/>
+        <Caret Line="12" Column="74" TopLine="10"/>
+      </Position11>
+      <Position12>
+        <Filename Value="upart.pas"/>
+        <Caret Line="369" Column="24" TopLine="362"/>
+      </Position12>
+      <Position13>
+        <Filename Value="upart.pas"/>
+        <Caret Line="414" Column="24" TopLine="397"/>
+      </Position13>
+      <Position14>
+        <Filename Value="upart.pas"/>
+        <Caret Line="428" Column="16" TopLine="404"/>
+      </Position14>
+      <Position15>
+        <Filename Value="upart.pas"/>
+        <Caret Line="348" Column="20" TopLine="333"/>
+      </Position15>
+      <Position16>
+        <Filename Value="upart.pas"/>
+        <Caret Line="434" Column="43" TopLine="405"/>
+      </Position16>
+      <Position17>
+        <Filename Value="upart.pas"/>
+        <Caret Line="355" Column="32" TopLine="339"/>
+      </Position17>
+      <Position18>
+        <Filename Value="upart.pas"/>
+        <Caret Line="412" Column="11" TopLine="396"/>
+      </Position18>
+      <Position19>
+        <Filename Value="upart.pas"/>
+        <Caret Line="408" Column="16" TopLine="393"/>
+      </Position19>
+      <Position20>
+        <Filename Value="upart.pas"/>
+        <Caret Line="411" Column="23" TopLine="397"/>
+      </Position20>
+      <Position21>
+        <Filename Value="upart.pas"/>
+        <Caret Line="417" Column="24" TopLine="395"/>
+      </Position21>
+      <Position22>
+        <Filename Value="upart.pas"/>
+        <Caret Line="435" Column="16" TopLine="411"/>
+      </Position22>
+      <Position23>
+        <Filename Value="upart.pas"/>
+        <Caret Line="3" Column="124" TopLine="1"/>
+      </Position23>
+      <Position24>
+        <Filename Value="upart.pas"/>
+        <Caret Line="368" Column="61" TopLine="338"/>
+      </Position24>
+      <Position25>
+        <Filename Value="upart.pas"/>
+        <Caret Line="396" Column="67" TopLine="393"/>
+      </Position25>
+      <Position26>
+        <Filename Value="upart.pas"/>
+        <Caret Line="418" Column="24" TopLine="394"/>
+      </Position26>
+      <Position27>
+        <Filename Value="upart.pas"/>
+        <Caret Line="436" Column="16" TopLine="412"/>
+      </Position27>
+      <Position28>
+        <Filename Value="upart.pas"/>
+        <Caret Line="358" Column="6" TopLine="333"/>
+      </Position28>
+      <Position29>
+        <Filename Value="upart.pas"/>
+        <Caret Line="419" Column="72" TopLine="396"/>
+      </Position29>
+      <Position30>
+        <Filename Value="upart.pas"/>
+        <Caret Line="404" Column="90" TopLine="389"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="part"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+        <UseLineInfoUnit Value="False"/>
+        <StripSymbols Value="True"/>
+        <UseExternalDbgSyms Value="True"/>
+      </Debugging>
+      <LinkSmart Value="True"/>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+  <EditorMacros Count="0"/>
+</CONFIG>

@@ -1,0 +1,262 @@
+object PerfPrefsForm: TPerfPrefsForm
+  Left = 21
+  Height = 478
+  Top = 47
+  Width = 411
+  BorderStyle = bsDialog
+  Caption = 'Perfusion Preferences'
+  ClientHeight = 478
+  ClientWidth = 411
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '0.9.30.4'
+  object SmoothFWHMmm: TEdit
+    Left = 232
+    Height = 22
+    Top = 80
+    Width = 120
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 17
+    Top = 87
+    Width = 166
+    Caption = 'Spatial Smooth FWHM mm'
+    ParentColor = False
+  end
+  object STCdrop: TComboBox
+    Left = 184
+    Height = 20
+    Top = 56
+    Width = 176
+    ItemHeight = 0
+    Items.Strings = (
+      'None'
+      'Ascending'
+      'AscendingInterleaved'
+      'Descending'
+      'DescendingInterleaved'
+    )
+    Style = csDropDownList
+    TabOrder = 1
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 17
+    Top = 63
+    Width = 148
+    Caption = 'Slice Timing Correction'
+    ParentColor = False
+  end
+  object DeleteVols: TEdit
+    Left = 233
+    Height = 22
+    Top = 128
+    Width = 80
+    TabOrder = 2
+  end
+  object Label3: TLabel
+    Left = 8
+    Height = 17
+    Top = 135
+    Width = 98
+    Caption = 'Delete volumes'
+    ParentColor = False
+  end
+  object BaselineVols: TEdit
+    Left = 233
+    Height = 22
+    Top = 152
+    Width = 80
+    TabOrder = 3
+  end
+  object Label4: TLabel
+    Left = 8
+    Height = 17
+    Top = 159
+    Width = 109
+    Caption = 'Baseline volumes'
+    ParentColor = False
+  end
+  object FinalVol: TEdit
+    Left = 233
+    Height = 22
+    Top = 176
+    Width = 80
+    TabOrder = 4
+  end
+  object Label5: TLabel
+    Left = 8
+    Height = 17
+    Top = 183
+    Width = 210
+    Caption = 'Final volume (zero for automatic)'
+    ParentColor = False
+  end
+  object MaskThreshSD: TEdit
+    Left = 234
+    Height = 22
+    Top = 200
+    Width = 80
+    TabOrder = 5
+  end
+  object Label7: TLabel
+    Left = 8
+    Height = 17
+    Top = 207
+    Width = 164
+    Caption = 'Brain mask threshold (SD)'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 9
+    Height = 17
+    Top = 303
+    Width = 216
+    Caption = 'Voxels to determine Arterial Input'
+    ParentColor = False
+  end
+  object AIFVox: TEdit
+    Left = 233
+    Height = 22
+    Top = 296
+    Width = 120
+    TabOrder = 6
+  end
+  object OKbtn: TButton
+    Left = 328
+    Height = 25
+    Top = 432
+    Width = 75
+    Caption = 'OK'
+    ModalResult = 1
+    TabOrder = 7
+  end
+  object Label9: TLabel
+    Left = 8
+    Height = 17
+    Top = 231
+    Width = 176
+    Caption = 'TR (sec, zero for automatic)'
+    ParentColor = False
+  end
+  object TRsec: TEdit
+    Left = 232
+    Height = 22
+    Top = 224
+    Width = 120
+    TabOrder = 8
+  end
+  object MotionCorrect: TCheckBox
+    Left = 9
+    Height = 18
+    Top = 8
+    Width = 204
+    Caption = 'Motion Correct (requires FSL)'
+    TabOrder = 9
+  end
+  object BrainExtract: TCheckBox
+    Left = 9
+    Height = 18
+    Top = 32
+    Width = 190
+    Caption = 'Brain Extract (requires FSL)'
+    TabOrder = 10
+  end
+  object DefaultBtn: TButton
+    Left = 8
+    Height = 25
+    Top = 432
+    Width = 97
+    Caption = 'Reset Defaults'
+    OnClick = DefaultBtnClick
+    TabOrder = 11
+  end
+  object Label10: TLabel
+    Left = 9
+    Height = 17
+    Top = 279
+    Width = 172
+    Caption = 'Brain mask threshold (R^2)'
+    ParentColor = False
+  end
+  object minR2: TEdit
+    Left = 233
+    Height = 22
+    Top = 272
+    Width = 120
+    TabOrder = 12
+  end
+  object Label6: TLabel
+    Left = 8
+    Height = 17
+    Top = 111
+    Width = 181
+    Caption = 'Temporal Smooth FWHM sec'
+    ParentColor = False
+  end
+  object SmoothFWHMsec: TEdit
+    Left = 232
+    Height = 22
+    Top = 104
+    Width = 120
+    TabOrder = 13
+  end
+  object ComputeRaw: TCheckBox
+    Left = 8
+    Height = 18
+    Top = 352
+    Width = 213
+    Caption = 'Compute Raw (unfitted) values'
+    TabOrder = 14
+  end
+  object ComputeFitted: TCheckBox
+    Left = 8
+    Height = 18
+    Top = 376
+    Width = 276
+    Caption = 'Compute Precise (but slow) Fitted values'
+    TabOrder = 15
+  end
+  object Label11: TLabel
+    Left = 8
+    Height = 17
+    Top = 255
+    Width = 61
+    Caption = 'TE (msec)'
+    ParentColor = False
+  end
+  object TEmsec: TEdit
+    Left = 232
+    Height = 22
+    Top = 248
+    Width = 120
+    TabOrder = 16
+  end
+  object Normalize: TCheckBox
+    Left = 8
+    Height = 18
+    Top = 400
+    Width = 174
+    Caption = 'Normalize (requires FSL)'
+    TabOrder = 17
+  end
+  object AIFpeak: TCheckBox
+    Left = 8
+    Height = 18
+    Top = 328
+    Width = 321
+    Caption = 'Time to peak relative to arterial peak, not onset'
+    TabOrder = 18
+  end
+  object FSLdir: TButton
+    Left = 120
+    Height = 25
+    Top = 432
+    Width = 145
+    Caption = 'Set FSL directory'
+    OnClick = FSLdirClick
+    TabOrder = 19
+  end
+end

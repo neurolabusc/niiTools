@@ -1,0 +1,151 @@
+object Form1: TForm1
+  Left = 404
+  Height = 480
+  Top = 164
+  Width = 640
+  Caption = 'Missingness in Neuroimaging Data (MIND)'
+  ClientHeight = 480
+  ClientWidth = 640
+  Menu = MainMenu1
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '0.9.30'
+  object Memo1: TMemo
+    Left = 0
+    Height = 460
+    Top = 0
+    Width = 640
+    Align = alClient
+    ScrollBars = ssVertical
+    TabOrder = 0
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 20
+    Top = 460
+    Width = 640
+    Align = alBottom
+    BevelOuter = bvNone
+    ClientHeight = 20
+    ClientWidth = 640
+    TabOrder = 1
+    object ProgressBar1: TProgressBar
+      Left = 0
+      Height = 20
+      Top = 0
+      Width = 640
+      Align = alClient
+      TabOrder = 0
+      BarShowText = True
+    end
+  end
+  object MainMenu1: TMainMenu
+    left = 32
+    top = 16
+    object AppleMenu: TMenuItem
+      Caption = ''
+      Visible = False
+      object AppleAbout: TMenuItem
+        Caption = 'About MIND...'
+        OnClick = AppleAboutClick
+      end
+      object Help2: TMenuItem
+        Caption = 'Help'
+        OnClick = BestPracticesTutorial1Click
+      end
+    end
+    object File1: TMenuItem
+      Caption = 'File'
+      object Help1: TMenuItem
+        Caption = 'Help'
+        OnClick = BestPracticesTutorial1Click
+      end
+      object Exit1: TMenuItem
+        Caption = 'Exit'
+        OnClick = Exit1Click
+      end
+    end
+    object Edit1: TMenuItem
+      Caption = 'Edit'
+      object Copy1: TMenuItem
+        Caption = 'Copy'
+        OnClick = Copy1Click
+      end
+    end
+    object MenuItem1: TMenuItem
+      Caption = 'Utilities'
+      object MakeMask1: TMenuItem
+        Caption = 'Make binary anatomical mask'
+        Enabled = False
+        OnClick = MakeMask1Click
+      end
+      object Define1: TMenuItem
+        Caption = 'Define missingness space'
+        OnClick = Define1Click
+      end
+      object SpatialSmooth1: TMenuItem
+        Caption = 'Spatial smooth'
+        OnClick = SpatialSmooth1Click
+      end
+      object TemporalSmooth1: TMenuItem
+        Caption = 'Temporal smooth'
+        OnClick = TemporalSmooth1Click
+      end
+      object Inspect1: TMenuItem
+        Caption = 'Inspect headers'
+        OnClick = Inspect1Click
+      end
+      object SliceTimeCorrect1: TMenuItem
+        Caption = 'Slice time correct (inbult)'
+        OnClick = SliceTimeCorrect1Click
+      end
+      object SliceTimeCorrect2: TMenuItem
+        Caption = 'Slice time correct (FSL)'
+        OnClick = SliceTimeCorrect2Click
+      end
+      object Normalize1: TMenuItem
+        Caption = 'Normalize (FSL)'
+        OnClick = Normalize1Click
+      end
+      object MotionCorrect1: TMenuItem
+        Caption = 'Motion correct (FSL)'
+        OnClick = MotionCorrect1Click
+      end
+    end
+    object PredMissing1: TMenuItem
+      Caption = 'PredMissing'
+      object Logistic1: TMenuItem
+        Caption = 'Logistic regression'
+        Enabled = False
+        OnClick = Logistic1Click
+      end
+    end
+    object Impute1: TMenuItem
+      Caption = 'Impute'
+      object ImputeNeighbor1: TMenuItem
+        Caption = 'Neighbor imputation'
+        OnClick = ImputeNeighbor1Click
+      end
+      object ImputeMultiple1: TMenuItem
+        Caption = 'Multiple imputation'
+        Enabled = False
+        OnClick = ImputeMultiple1Click
+      end
+      object ImputePool1: TMenuItem
+        Caption = 'Compare and pool'
+        Enabled = False
+        OnClick = ImputePool1Click
+      end
+    end
+  end
+  object Timer1: TTimer
+    Enabled = False
+    OnTimer = Timer1Timer
+    left = 157
+    top = 67
+  end
+  object OpenDialog1: TOpenDialog
+    left = 96
+    top = 8
+  end
+end

@@ -1,0 +1,165 @@
+object PerfPrefsForm: TPerfPrefsForm
+  Left = 406
+  Height = 292
+  Top = 224
+  Width = 320
+  Caption = 'Perfusion Preferences'
+  ClientHeight = 292
+  ClientWidth = 320
+  Position = poScreenCenter
+  LCLVersion = '0.9.30'
+  object SmoothFWHM: TEdit
+    Left = 176
+    Height = 21
+    Top = 48
+    Width = 80
+    OnChange = SmoothFWHMChange
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 14
+    Top = 55
+    Width = 90
+    Caption = 'Smooth FWHM mm'
+    ParentColor = False
+  end
+  object STCdrop: TComboBox
+    Left = 128
+    Height = 21
+    Top = 24
+    Width = 176
+    ItemHeight = 13
+    Items.Strings = (
+      'None'
+      'Ascending'
+      'AscendingInterleaved'
+      'Descending'
+      'DescendingInterleaved'
+    )
+    TabOrder = 1
+    Text = 'STCdrop'
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 14
+    Top = 31
+    Width = 108
+    Caption = 'Slice Timing Correction'
+    ParentColor = False
+  end
+  object DeleteVols: TEdit
+    Left = 176
+    Height = 21
+    Top = 72
+    Width = 80
+    TabOrder = 2
+  end
+  object Label3: TLabel
+    Left = 8
+    Height = 14
+    Top = 79
+    Width = 74
+    Caption = 'Delete volumes'
+    ParentColor = False
+  end
+  object BaselineVols: TEdit
+    Left = 176
+    Height = 21
+    Top = 96
+    Width = 80
+    TabOrder = 3
+  end
+  object Label4: TLabel
+    Left = 8
+    Height = 14
+    Top = 103
+    Width = 82
+    Caption = 'Baseline volumes'
+    ParentColor = False
+  end
+  object FinalVol: TEdit
+    Left = 176
+    Height = 21
+    Top = 120
+    Width = 80
+    TabOrder = 4
+  end
+  object Label5: TLabel
+    Left = 8
+    Height = 14
+    Top = 127
+    Width = 60
+    Caption = 'Final volume'
+    ParentColor = False
+  end
+  object MaskVox: TEdit
+    Left = 176
+    Height = 21
+    Top = 144
+    Width = 80
+    TabOrder = 5
+  end
+  object Label6: TLabel
+    Left = 8
+    Height = 14
+    Top = 151
+    Width = 150
+    Caption = 'Voxels to determine brain mask'
+    ParentColor = False
+  end
+  object MaskThreshSD: TEdit
+    Left = 176
+    Height = 21
+    Top = 168
+    Width = 80
+    TabOrder = 6
+  end
+  object Label7: TLabel
+    Left = 8
+    Height = 14
+    Top = 175
+    Width = 124
+    Caption = 'Brain mask threshold (SD)'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 8
+    Height = 14
+    Top = 199
+    Width = 163
+    Caption = 'Voxels to determine Arterial Input'
+    ParentColor = False
+  end
+  object AIFVox: TEdit
+    Left = 176
+    Height = 21
+    Top = 192
+    Width = 80
+    TabOrder = 7
+  end
+  object OKbtn: TButton
+    Left = 229
+    Height = 25
+    Top = 224
+    Width = 75
+    Caption = 'OK'
+    TabOrder = 8
+  end
+  object Label9: TLabel
+    Left = 8
+    Height = 14
+    Top = 7
+    Width = 136
+    Caption = 'TR (sec, zero for automatic)'
+    ParentColor = False
+  end
+  object TRsec: TEdit
+    Left = 176
+    Height = 21
+    Top = 0
+    Width = 80
+    OnChange = SmoothFWHMChange
+    TabOrder = 9
+  end
+end

@@ -1,0 +1,196 @@
+object uiForm: TuiForm
+  Left = 244
+  Height = 640
+  Top = 89
+  Width = 800
+  Caption = 'Masked ttests'
+  ClientHeight = 640
+  ClientWidth = 800
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '1.6.0.1'
+  object Memo1: TMemo
+    Left = 0
+    Height = 614
+    Top = 0
+    Width = 800
+    Align = alClient
+    OnChange = Memo1Change
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+  end
+  object ToolBar2: TToolBar
+    Left = 0
+    Height = 26
+    Top = 614
+    Width = 800
+    Align = alBottom
+    Caption = 'ToolBar2'
+    TabOrder = 1
+    object ProgressBar1: TProgressBar
+      Left = 1
+      Height = 24
+      Top = 2
+      Width = 799
+      Align = alClient
+      Max = 1000
+      TabOrder = 0
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Title = 'Select images'
+    Filter = 'NIfTI|*.nii;*.hdr;*.nii.gz;*.voi'
+    left = 24
+    top = 8
+  end
+  object SaveDialog1: TSaveDialog
+    DefaultExt = '.nii'
+    Filter = 'NIfTI nii|*.nii|NIfTI compressed nii|*.nii.gz|NIfTI hdr|*.hdr'
+    left = 24
+    top = 64
+  end
+  object OpenDialog2: TOpenDialog
+    Title = 'Select physio data'
+    Filter = 'SiemensPhysio|*.resp'
+    left = 80
+    top = 8
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 200
+    OnTimer = Timer1Timer
+    left = 136
+    top = 64
+  end
+  object MainMenu1: TMainMenu
+    left = 80
+    top = 64
+    object File1: TMenuItem
+      Caption = 'File'
+      object Exit1: TMenuItem
+        Caption = 'Exit'
+        OnClick = Exit1Click
+      end
+    end
+    object MenuItem1: TMenuItem
+      Caption = 'DifferenceMaps'
+      object Voxelwise1: TMenuItem
+        Caption = 'Voxelwise'
+        OnClick = pairedttestBtnClick
+      end
+      object ROI1: TMenuItem
+        Caption = 'RegionOfInterest'
+        OnClick = voipairedttestBtnClick
+      end
+    end
+    object TwoGroups1: TMenuItem
+      Caption = 'TwoGroups'
+      object Voxelwise2: TMenuItem
+        Caption = 'Voxelwise'
+        OnClick = unrelatedttestBtnClick
+      end
+      object ROI2: TMenuItem
+        Caption = 'RegionOfInterest'
+        OnClick = voiunrelatedttestBtnClick
+      end
+    end
+    object ContinuousGroups1: TMenuItem
+      Caption = 'ContinuousGroups'
+      object Voxelwise3: TMenuItem
+        Caption = 'Voxelwise'
+        OnClick = Voxelwise3Click
+      end
+      object ROI3: TMenuItem
+        Caption = 'RegionOfInterest'
+        OnClick = ROI3Click
+      end
+      object AddLesionVol1: TMenuItem
+        Caption = 'Add factor lesion volume to VAL file'
+        OnClick = AddLesionVol1Click
+      end
+    end
+    object Options1: TMenuItem
+      Caption = 'Options'
+      object Inspect1: TMenuItem
+        Caption = 'Inspect headers'
+        OnClick = InspectBtnClick
+      end
+      object Peak1: TMenuItem
+        Caption = 'Peak threshold'
+        OnClick = Peak1Click
+      end
+      object IntenNorm1: TMenuItem
+        Caption = 'Intensity Normalization'
+        OnClick = IntenNormBtnClick
+      end
+      object Part1: TMenuItem
+        Caption = 'PhysiologicalNoiseRemoval'
+        OnClick = PartBtnClick
+      end
+      object Add1: TMenuItem
+        Caption = 'Add images'
+        OnClick = AddBtnClick
+      end
+      object CreateImages1: TMenuItem
+        Caption = 'CreateImages'
+        OnClick = CreateImages1Click
+      end
+      object Perfusion1: TMenuItem
+        Caption = 'Perfusion'
+        OnClick = Perfusion1Click
+      end
+      object Smooth1: TMenuItem
+        Caption = 'Smooth (cubic)'
+        OnClick = Smooth1Click
+      end
+      object Smooth2: TMenuItem
+        Caption = 'Smooth (gauss)'
+        OnClick = Smooth2Click
+      end
+      object SmoothSec1: TMenuItem
+        Caption = 'Smooth (temporal)'
+        OnClick = SmoothSec1Click
+      end
+      object SliceTimeCorrection1: TMenuItem
+        Caption = 'Slice Time Correct'
+        OnClick = SliceTimeCorrection1Click
+      end
+      object Mirror1: TMenuItem
+        Caption = 'Mirror difference'
+        OnClick = Mirror1Click
+      end
+      object Extract1: TMenuItem
+        Caption = 'Extract object[s]'
+        OnClick = Extract1Click
+      end
+      object Mask1: TMenuItem
+        Caption = 'Mask'
+        OnClick = Mask1Click
+      end
+      object BET: TMenuItem
+        Caption = 'Brain Extract (FSL)'
+        OnClick = BETClick
+      end
+      object MCFLIRT: TMenuItem
+        Caption = 'Motion Correct (FSL)'
+        OnClick = MCFLIRTClick
+      end
+      object FLIRT: TMenuItem
+        Caption = 'Normalize (FSL)'
+        OnClick = FLIRTClick
+      end
+      object SliceTimer: TMenuItem
+        Caption = 'Slice Time Correct (FSL)'
+        OnClick = SliceTimerClick
+      end
+    end
+  end
+  object OpenDialog3: TOpenDialog
+    Title = 'Select NPM format VAL file'
+    Filter = 'NPM design file|*.val'
+    left = 136
+    top = 8
+  end
+end

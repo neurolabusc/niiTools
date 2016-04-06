@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <General>
+      <MainUnit Value="0"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1" Active="Default">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="13">
+      <Unit0>
+        <Filename Value="mindpro.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mindpro"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="27" Y="10"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mindgui.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="mindgui"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="41" Y="8"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="mindcore.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mindcore"/>
+        <EditorIndex Value="7"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="271"/>
+        <CursorPos X="79" Y="284"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="nii_core.pas"/>
+        <UnitName Value="nii_core"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="141"/>
+        <CursorPos X="44" Y="43"/>
+        <UsageCount Value="17"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="upart.pas"/>
+        <UnitName Value="upart"/>
+        <EditorIndex Value="6"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="805"/>
+        <CursorPos X="6" Y="820"/>
+        <UsageCount Value="15"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="nii_smooth.pas"/>
+        <UnitName Value="nii_smooth"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="108"/>
+        <CursorPos X="1" Y="124"/>
+        <UsageCount Value="15"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="nii_math.pas"/>
+        <UnitName Value="nii_math"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="195"/>
+        <CursorPos X="1" Y="202"/>
+        <UsageCount Value="15"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="define_types.pas"/>
+        <UnitName Value="define_types"/>
+        <EditorIndex Value="9"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="61" Y="12"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="nii_ttest.pas"/>
+        <UnitName Value="nii_ttest"/>
+        <EditorIndex Value="8"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="4"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="/Developer/lazarus/lcl/interfaces/carbon/pascocoa/appkit/NSApplication.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="111"/>
+        <CursorPos X="3" Y="72"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="brent.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="brent"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="116"/>
+        <CursorPos X="52" Y="133"/>
+        <UsageCount Value="21"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="nii_cluster.pas"/>
+        <UnitName Value="nii_cluster"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="60" Y="8"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="fsl_calls.pas"/>
+        <UnitName Value="fsl_calls"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit12>
+    </Units>
+    <JumpHistory Count="15" HistoryIndex="14">
+      <Position1>
+        <Filename Value="mindpro.lpr"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="mindgui.pas"/>
+        <Caret Line="257" Column="64" TopLine="243"/>
+      </Position2>
+      <Position3>
+        <Filename Value="mindgui.pas"/>
+        <Caret Line="159" Column="5" TopLine="126"/>
+      </Position3>
+      <Position4>
+        <Filename Value="mindgui.pas"/>
+        <Caret Line="9" Column="17" TopLine="1"/>
+      </Position4>
+      <Position5>
+        <Filename Value="mindgui.pas"/>
+        <Caret Line="149" Column="7" TopLine="121"/>
+      </Position5>
+      <Position6>
+        <Filename Value="define_types.pas"/>
+        <Caret Line="5" Column="1" TopLine="1"/>
+      </Position6>
+      <Position7>
+        <Filename Value="mindgui.pas"/>
+        <Caret Line="143" Column="22" TopLine="130"/>
+      </Position7>
+      <Position8>
+        <Filename Value="mindgui.pas"/>
+        <Caret Line="136" Column="18" TopLine="128"/>
+      </Position8>
+      <Position9>
+        <Filename Value="mindgui.pas"/>
+        <Caret Line="137" Column="18" TopLine="129"/>
+      </Position9>
+      <Position10>
+        <Filename Value="mindgui.pas"/>
+        <Caret Line="138" Column="18" TopLine="130"/>
+      </Position10>
+      <Position11>
+        <Filename Value="mindgui.pas"/>
+        <Caret Line="137" Column="18" TopLine="129"/>
+      </Position11>
+      <Position12>
+        <Filename Value="mindgui.pas"/>
+        <Caret Line="136" Column="18" TopLine="128"/>
+      </Position12>
+      <Position13>
+        <Filename Value="define_types.pas"/>
+        <Caret Line="3" Column="86" TopLine="1"/>
+      </Position13>
+      <Position14>
+        <Filename Value="fsl_calls.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position14>
+      <Position15>
+        <Filename Value="mindgui.pas"/>
+        <Caret Line="8" Column="48" TopLine="1"/>
+      </Position15>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="9"/>
+    <Target>
+      <Filename Value="mindpro"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <UseLineInfoUnit Value="False"/>
+        <StripSymbols Value="True"/>
+      </Debugging>
+      <LinkSmart Value="True"/>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
