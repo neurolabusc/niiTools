@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CONFIG>
-  <Compiler Value="/usr/local/bin/fpc" Date="1447509027"/>
-  <Params Value=" -MObjFPC -Scghi -O1 -Xs -XX -l -vewnhibq -Fi/Users/rorden/Documents/pas/niiTools/lib/i386-darwin -Fu/Users/rorden/Documents/pas/niiTools/ -FU/Users/rorden/Documents/pas/niiTools/lib/i386-darwin/ part.lpr"/>
-</CONFIG>
