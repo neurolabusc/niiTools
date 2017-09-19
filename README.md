@@ -4,7 +4,7 @@
 
 This is a collection of tools for analyzing brain imaging data
  - [perfx](http://www.mccauslandcenter.sc.edu/crnl/tools/pwi) : Perfusion-Weighted Imaging (PWI) analysis.
- - [Physiological Artifact Removal Tool (PART)](http://www.mccauslandcenter.sc.edu/crnl/tools/part]
+ - [Physiological Artifact Removal Tool (PART)](http://www.mccauslandcenter.sc.edu/crnl/tools/part)
 
 
 ##### Compiling
